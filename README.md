@@ -6,7 +6,7 @@ This project implements **unsupervised behavior clustering** from first principl
 
 Rather than relying on high-level machine learning libraries, this implementation focuses on **core algorithmic understanding**, correctness, and reproducibility.
 
----
+------------------------------------------------------------------------------------------
 
 ##  What This Project Demonstrates
 
@@ -20,7 +20,7 @@ From a security and cloud perspective, this project maps directly to:
 
 Under the hood, the clustering logic is equivalent to **centroid-based clustering (k-means)**, but the emphasis is on **behavior modeling**, which is how this technique is commonly described in security operations.
 
----
+-------------------------------------------------------------------------------------------
 
 ##  Core Concepts Implemented
 
@@ -31,7 +31,7 @@ Under the hood, the clustering logic is equivalent to **centroid-based clusterin
 * Explicit handling of empty clusters
 * Clean, modular, import-safe design
 
------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
 
 ## 📁 Repository Structure
 
@@ -62,7 +62,7 @@ Assigns each data point to the closest centroid using squared distance.
 
 Recomputes centroids based on current assignments and handles empty clusters safely.
 
----
+--------------------------------------------------------------------------------------------
 
 ##  How to Use (Local Testing)
 
@@ -80,7 +80,7 @@ for _ in range(30):
     if np.allclose(C, C_new, equal_nan=True):
         break
     C = C_new
--------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
 
 ## 🔐 Security & Cloud Use Cases
 
@@ -94,7 +94,7 @@ This foundational implementation applies directly to:
 
 In production systems, these ideas appear in tools such as SIEMs, XDR platforms, and cloud-native security services.
 
----
+------------------------------------------------------------------------------------------------
 
 ##  Why This Project Matters
 
@@ -107,7 +107,7 @@ Security teams increasingly rely on **data-driven detection and analytics**. Und
 
 This project reflects a transition toward **AI-enabled security analytics** while maintaining a strong grounding in security operations.
 
----
+--------------------------------------------------------------------------------------------------
 
 ## 📌 Tech Stack
 
@@ -116,7 +116,7 @@ This project reflects a transition toward **AI-enabled security analytics** whil
 
 No external ML libraries were used.
 
----
+--------------------------------------------------------------------------------------------------
 
 ## 📬 Feedback & Discussion
 
